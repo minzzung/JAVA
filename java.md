@@ -63,7 +63,7 @@
 
 
 </div>
-
+</details>
 
 
 <details>
