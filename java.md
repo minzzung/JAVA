@@ -1,6 +1,61 @@
 # 📌Java
 <details>
 
+<summary> Java 기본 구조 </summary>
+<div markdown="1">
+
+## ✏Java 기본 구조
+
+
+### ◽ 클래스
+   - 자바 프로그램은 클래스 안에 프로그램을 작성한다.
+
+   
+### ◽ 메서드
+   - 클래스의 멤버 함수
+   
+   
+#### - main()메서드 
+   - 자바 프로그램이 실행을 시작하는 곳이다
+   - 한 클래스에 하나만 작성한다
+   
+   
+### ◽ 문장
+   - 컴퓨터에게 실행하도록 하는 명령문
+   - 문장의 끝에는 ;(세미콜론을 붙인다.)
+   
+   
+### ◽ 주석
+   - 컴파일러가 명령으로 인지하지 않는 문장이다
+   - /*여러줄 주석*/(설정 : ctrl+shift+'/' , 해제 : ctrl+shift+'\')
+   - //한 줄 주석
+   
+   
+#### System.out.println()
+   - 화면에 출력 후 다음 줄로 이동한다.
+   
+   
+#### System.out.print()
+   - 화면에 출력 후 다음 줄로 이동하지 않는다.
+   
+   
+```JAVA
+   public class Printtenst{
+      public static void main(String[] args){
+         System.out.println("김민동");
+         System.out.print("와라ㅏ");
+         System.out.println("Java")
+      }
+   }
+```
+
+
+</div>
+</details>
+
+
+<details>
+
 <summary>JAVA의 기본 프로그래밍(식별자/변수/상수/연산자)</summary>
 <div markdown="1">
 
